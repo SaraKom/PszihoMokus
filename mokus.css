@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #318fb5;
+  color: #001244;
+}
+
+.faces{
+  margin: 52px auto 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding: 3%;
+  z-index: 1;
+  text-align: left;
+  line-height: 75px;
+  width: 920px;
+}
+
+h2{
+font-size: 20px;
+font-weight: bold;
+font-stretch: expanded;
+padding: 15px 20px 15px 20px;
+}
+
+h1#first {
+  margin: -400px auto 120px auto;
+  padding: 20px;
+}
+em{
+  width: 920px;
+  text-align: left;
+  margin: 0px auto;
+  padding: 30px;
+  display: flex;
+}
+
+li{
+  padding: 2px;
+  list-style-image: url("assets/icons8-brain-64.png");
+} 
+
+ul{
+  list-style-position: inside;
+  padding: 5px;
+  margin: auto;
+
+}
+
+p{
+  width: 920px;
+  text-align: left;
+  margin: 0px auto;
+}
+
+.navbar {
+  background-color: #005086;
+  position: fixed;
+  top:0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+}
+.navbar a {
+  float: left;
+  display: flex;
+  left:50%; 
+  color: #318fb5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color: #f7d6bf;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #D6AFAF;
+  width: 960px;
+  margin: auto;
+}
+
+.bold{
+  font-weight: bold;
+  width: 920px;
+  text-align: left;
+  margin: 0px auto;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.last{
+  padding-bottom: 10px;
+}
+
+.help{
+  background: url('https://cdn.berufsfeld-info.de/5a3a891805f18113cc2697bb/960.jpeg') no-repeat center center #EAE9E5;
+  height: 890px;
+}
+
+
+
+#first-row{
+  height: 25%;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.width{
+  height: 100%;
+  width: 25%;
+}
+
+.left {
+  float: left;
+  margin: 20px;
+  background-color: hsla(48, 2%, 92%, 0.8);
+  }
+
+.method{
+  height: 900px;
+  }
+
+  .brain {
+  width: 320px;
+  float: right;
+  margin: 20px;
+  box-shadow: 10px 10px 5px #6D899C;
+      -moz-box-shadow: 10px 10px 5px #6D899C;
+      -webkit-box-shadow: 10px 10px 5px #6D899C;
+      -khtml-box-shadow: 10px 10px 5px #6D899C;
+}
+#table{
+background: url('https://www.york.ac.uk/media/study/courses/undergraduate/education/hero-psychology-in-education-1600.png');
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
+height: 900px;
+color: #FFFFFF;
+}
+
+#table h1{
+  margin-top: 30px;
+}
+
+.table
+{
+  margin-left: 30px;
+  padding-top: 300px;
+  width: 450px;
+}
+
+td{
+ padding: 10px;
+}
+
+.map{
+  width: 960px;
+  height: auto;
+  object-fit: cover;
+}
+.map:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.not-right{
+  border-right: 6px groove #6D899C;
+  width: 440px;
+  padding: 60px 17px 80px 20px;
+  float: left;  
+}
+
+.right {
+  width: 440px;
+  padding: 60px 17px 80px 20px;
+  float: left;
+}
+
+.center {
+  width: 440px;
+  text-align: center;
+  padding: 0;
+}
+
+.footer{ 
+  font-size: 13px;
+  margin: 20px;
+  bottom: 0;
+  text-align: center;
+}
