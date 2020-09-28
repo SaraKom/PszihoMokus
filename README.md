@@ -1,2 +1,2 @@
-# http://SaraKom/PszihoMokus
+# http://SaraKom/PszihoMokus.github.io
 CSS&amp;HTML iskolai feladat
